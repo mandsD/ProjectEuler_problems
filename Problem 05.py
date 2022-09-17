@@ -2,7 +2,6 @@
 
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20? """
 
-import math
 def calculo():
 	ans = 1
 	for i in range(1, 21):
@@ -10,5 +9,4 @@ def calculo():
 	return str(ans)
 
 
-if __name__ == "__main__":
-	print(calculo())
+print(calculo())
