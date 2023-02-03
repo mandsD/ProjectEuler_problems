@@ -17,4 +17,4 @@ while True:
     if n3%2 == 0:
      sum = sum + n3
 print()
-print(soma)
+print(sum)
