@@ -11,4 +11,4 @@ while c < 1000:
     sum = sum + c
   c = c + 1
 print()
-print(soma)
+print(sum)
