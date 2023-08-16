@@ -4,7 +4,7 @@ What is the largest prime factor of the number 600851475143 ? """
 
 x = 2
 number = 600851475143
-while (x*x) <= número:
+while (x*x) <= number:
    if number%x == 0:
       number = number/x
    else:
